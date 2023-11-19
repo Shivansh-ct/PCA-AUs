@@ -1,0 +1,8 @@
+# Ignore Frontalization files
+FacialLandmarkFrontalization/
+FacialLandmarkFrontalization_49/
+FacialLandmarkFrontalization_66/
+
+# Ignore Results and Data files
+Data/
+Results/
