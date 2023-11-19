@@ -2,7 +2,7 @@
 Code for the paper "A PCA-Based Keypoint Tracking Approach to Automated Facial Expressions Encoding" accepted at International Conference on Pattern Recognition and Machine Intelligence, 2023.  
 
 ## Installation
-Required packages and versions of matlab is listed in [matlab versions](github.com/Shivansh-ct/PCA-AUs/matlab_versions.txt) and python3 are listed in [python versions](github.com/Shivansh-ct/PCA-AUs/python_versions.txt). The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/bbonik/facial-landmark-frontalization) is used in preprocessing. The original matlab code for larsen algorithm was obtained from [source](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=3897)  
+Required packages and versions of matlab is listed in [matlab versions](github.com/Shivansh-ct/PCA-AUs/matlab_versions.txt) and python3 are listed in [python versions](github.com/Shivansh-ct/PCA-AUs/python_versions.txt). The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/bbonik/facial-landmark-frontalization) is used in preprocessing. The original matlab code for larsen algorithm was obtained from [source](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=3897).  
 ## Datasets
 The datasets can be obtained at [CK+](http://www.jeffcohn.net/Resources/), [DISFA](http://mohammadmahoor.com/disfa/) and [BP4D-Spontaneous](https://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html)  
 ## Code Usage
@@ -32,5 +32,5 @@ contains the code for creating comparison graph of PCA AUs, pure AUs, and comb A
 │   ├── pca_vs_facs_plot.ipynb   [plot graphs for comparing PCA AUs, pure AUs, and comb AUs] 
 │   └── pca_vs_facs_plot.m                               [compile the metrics performance for all AUs from one to total components] 
 │   data_and_feature_creation.ipynb                                  [code to generate features from facial keypoints]
-│   matlab_versions.txt                [Environment file for the required version of libraries]
-└── python_versions.txt                [Environment file for the required version of libraries]
+│   matlab_versions.txt                [required version for matlab]
+└── python_versions.txt                [required version of libraries in python]
